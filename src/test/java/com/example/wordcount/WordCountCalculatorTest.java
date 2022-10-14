@@ -16,4 +16,12 @@ public class WordCountCalculatorTest {
         int result = exp.Wordcount(a);
         assertEquals(expectedResult,result);
     }
+
+    @Test
+    void charTest(){
+        String a = "Hello";
+        int expectedResult = 5;
+        int result = exp.charcterscount(a);
+        assertEquals(result,expectedResult);
+    }
 }

@@ -14,4 +14,9 @@ public class WordCountCalculatorController {
         return a.Wordcount(s);
     }
 
+    @RequestMapping("/char")
+    public int charcterscount(@RequestParam String s){
+        return a.charcterscount(s);
+    }
+
 }
